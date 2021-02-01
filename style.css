@@ -1,29 +1,139 @@
-*{margin:0 auto;font-family: 'Open Sans', sans-serif;}
-img{border:none}
-a:hover{text-decoration:none}
+* {
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
 
-#body{width: 1000px;display:table;margin-bottom:50px}
-.blockl{width:244px; background:#f4f4f4;float:left; display: block;}
-.blockr{width:740px;float:right; display: block; min-height:655px;}
-.blockl .logo{text-align:center;text-transform: uppercase; padding:10px 0 19px 0;color:#3d4a6e}
-.blockl .logo1{font-size: 39px;}
-.blockl .logo2{font-size: 15px;padding-top: 2px;border-top: 1px solid #3d4a6e;}
-.blockl ul{padding:0px;  border-bottom:4px solid #ffffff;border-top:2px solid #ffffff}
-.blockl li{list-style:none; background:#3d4a6e; border-top:2px solid #ffffff;padding:0px 0px;}
-.blockl a{color:#f4f4f4; font-size:16px; text-decoration:none; padding:15px 0px 15px 52px; display: block;}
-.blockl .double a{padding: 6px 0px 6px 52px!important;line-height: 20px;}
-.blockl .li1{background:url(style/li1.png) no-repeat; background-position:center left 10px}
-.blockl .li2{background:url(style/li2.png) no-repeat; background-position:center left 10px}
-.blockl .li3{background:url(style/li3.png) no-repeat; background-position:center left 10px}
-.blockl .li4{background:url(style/li4.png) no-repeat; background-position:center left 10px}
-.blockl .li5{background:url(style/li5.png) no-repeat; background-position:center left 10px}
-.blockl .li6{background:url(style/li7.png) no-repeat; background-position:center left 10px}
-.blockl .li7{background:url(style/li6.png) no-repeat; background-position:center left 10px}
-.blockl .li8{background:url(style/li8.png) no-repeat; background-position:center left 10px}
-.blockl .li9{background:url(style/li9.png) no-repeat; background-position:center left 10px}
-.blockl .li10{background:url(style/li10.png) no-repeat; background-position:center left 10px}
-.blockl .li11{background:url(style/li11.png) no-repeat; background-position:center left 10px}
-.blockl .li12{background:url(style/li12.png) no-repeat; background-position:center left 10px}
+img {
+  border: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#body {
+  width: 1000px;
+  display: table;
+  margin-bottom: 50px;
+}
+
+.blockl {
+  width: 244px;
+  background: #f4f4f4;
+  float: left;
+  display: block;
+}
+
+.blockr {
+  width: 740px;
+  float: right;
+  display: block;
+  min-height: 655px;
+}
+
+.blockl .logo {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0 19px 0;
+  color: #3d4a6e;
+}
+
+.blockl .logo1 {
+  font-size: 39px;
+}
+
+.blockl .logo2 {
+  font-size: 15px;
+  padding-top: 2px;
+  border-top: 1px solid #3d4a6e;
+}
+
+.blockl ul {
+  padding: 0;
+  border-bottom: 4px solid #fff;
+  border-top: 2px solid #fff;
+}
+
+.blockl li {
+  list-style: none;
+  background: #3d4a6e;
+  border-top: 2px solid #fff;
+  padding: 0 0;
+}
+
+.blockl a {
+  color: #f4f4f4;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 15px 0 15px 52px;
+  display: block;
+}
+
+.blockl .double a {
+  padding: 6px 0 6px 52px;
+  line-height: 20px;
+}
+
+.blockl .li1 {
+  background: url(style/li1.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li2 {
+  background: url(style/li2.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li3 {
+  background: url(style/li3.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li4 {
+  background: url(style/li4.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li5 {
+  background: url(style/li5.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li6 {
+  background: url(style/li7.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li7 {
+  background: url(style/li6.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li8 {
+  background: url(style/li8.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li9 {
+  background: url(style/li9.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li10 {
+  background: url(style/li10.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li11 {
+  background: url(style/li11.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li12 {
+  background: url(style/li12.png) no-repeat;
+  background-position: center left 10px;
+}
+
 .blockl .li13{background:url(style/li13.png) no-repeat; background-position:center left 10px}
 .blockl .li14{background:url(style/li14.png) no-repeat; background-position:center left 10px}
 .blockl .li15{background:url(style/li15.png) no-repeat; background-position:center left 10px}
