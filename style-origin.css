@@ -1,0 +1,411 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  border: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.page-body {
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.blockl {
+  width: 100%;
+  background: #f4f4f4;
+  display: block;
+}
+
+.blockr {
+  width: 740px;
+  display: block;
+  min-height: 655px;
+}
+
+.blockl .logo {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0 19px 0;
+  color: #3d4a6e;
+}
+
+.blockl .logo1 {
+  font-size: 39px;
+}
+
+.blockl .logo2 {
+  font-size: 15px;
+  padding-top: 2px;
+  border-top: 1px solid #3d4a6e;
+}
+
+.blockl ul {
+  padding: 0;
+  border-bottom: 4px solid #fff;
+  border-top: 2px solid #fff;
+}
+
+.blockl li {
+  list-style: none;
+  background: #3d4a6e;
+  border-top: 2px solid #fff;
+  padding: 0 0;
+}
+
+.blockl a {
+  color: #f4f4f4;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 15px 0 15px 52px;
+  display: block;
+}
+
+.blockl .double a {
+  padding: 6px 0 6px 52px;
+  line-height: 20px;
+}
+
+.blockl .li1 {
+  background: url(style/li1.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li2 {
+  background: url(style/li2.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li3 {
+  background: url(style/li3.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li4 {
+  background: url(style/li4.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li5 {
+  background: url(style/li5.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li6 {
+  background: url(style/li7.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li7 {
+  background: url(style/li6.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li8 {
+  background: url(style/li8.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li9 {
+  background: url(style/li9.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li10 {
+  background: url(style/li10.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li11 {
+  background: url(style/li11.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li12 {
+  background: url(style/li12.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li13 {
+  background: url(style/li13.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li14 {
+  background: url(style/li14.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li15 {
+  background: url(style/li15.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li16 {
+  background: url(style/li16.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockl .li17 {
+  background: url(style/li17.png) no-repeat;
+  background-position: center left 10px;
+}
+
+.blockf {
+  background: url(style/blockl-bg.png);
+  background-repeat: no-repeat;
+  height: 130px;
+  background-position: bottom;
+  text-align: center;
+}
+
+.blockf a:hover {
+  opacity: 0.8;
+}
+
+.blockr h1 {
+  font-weight: 100;
+  color: #3d4a6e;
+  background-color: #f4f4f4;
+  text-align: center;
+  font-size: 40px;
+  padding: 24px 0 25px 0;
+  margin-bottom: 20px;
+}
+
+.blockr h2 {
+  font-size: 24px;
+  font-weight: 100;
+  color: #3d4a6e;
+}
+
+.blockr p {
+  margin: 7px 0;
+  text-align: justify;
+}
+
+.blockr b {
+  font-weight: 600;
+}
+
+.content {
+  min-height: 520px;
+}
+
+#footer {
+  width: 990px;
+  color: #999;
+  font-size: 13px;
+  padding-bottom: 15px;
+  display: table;
+}
+
+#footer a {
+  color: #ed0c51;
+}
+
+.footl {
+  float: left;
+  display: block;
+}
+
+.footr {
+  float: right;
+  display: block;
+}
+
+.pdf ul {
+  padding: 20px 0;
+}
+
+.pdf li {
+  list-style: none;
+  background-image: url(style/pdf.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+  background-size: 60px;
+  padding: 70px 10px 10px 10px;
+  font-size: 15px;
+  width: 220px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.blockl li:hover {
+  opacity: 0.6;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.ctabl table {
+  margin: 30px 0;
+}
+
+.ctabl table td {
+  font-size: 14px;
+  padding: 10px 0;
+  vertical-align: top;
+  border-top: 1px solid #f1f1f1;
+}
+
+.ctabl table b {
+  color: #3d4a6e;
+  font-weight: 600;
+}
+
+.katalog-head {
+  padding: 0;
+}
+
+.katalog-head li:hover {
+  opacity: 0.8;
+}
+
+.katalog1 h2 {
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+.katalog1 ul {
+  padding: 0;
+}
+
+.katalog1 ul .first {
+  border-top: none;
+}
+
+.katalog1 strong {
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+.katalog1 table {
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+}
+
+.jbzoo .frontpage,
+.jbzoo .category {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.zoo-kvartir-teaser {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.zoo-position-l {
+  float: left;
+  padding: 3px;
+  border: 1px solid #f4f4f4;
+}
+
+.zoo-position-r {
+  float: right;
+  width: 420px;
+  padding-top: 5px;
+}
+
+.zoo-position-r h4 {
+  margin-bottom: 5px;
+}
+
+.zoo-position-r ul {
+  margin: 0;
+  padding: 0;
+}
+
+.zoo-position-r li div {
+  display: initial;
+  float: right;
+}
+
+.zoo-position-r strong {
+  font-weight: 600;
+}
+
+.zoo-position-r .element-itemlink {
+  margin-top: 6px;
+}
+
+.zoo-kvartir-full li div {
+  float: right;
+  display: block;
+  width: 230px;
+  text-align: right;
+}
+
+.katalog1 li:hover {
+  background: #f4f4f4;
+}
+
+.katalog1 table tr:first-child {
+  background: #f4f4f4;
+}
+
+.katalog1 table tr:first-child td {
+  padding: 20px 0;
+}
+
+.obp {
+  display: table;
+}
+
+.obimg {
+  margin-bottom: 20px;
+}
+
+.htable {
+  border: 1px solid #3d4a6e;
+}
+
+.htable p {
+  text-align: left;
+}
+
+.table-img {
+  text-align: center;
+  vertical-align: top;
+}
+
+.table-img img {
+  margin-bottom: 15px;
+}
+
+.delper {
+  padding-left: 10px;
+}
+
+.delper img {
+  position: relative;
+  top: 28px;
+  padding: 10px;
+  background: #3d4a6e;
+}
+
+.komuslugi-p {
+  color: #565656;
+  font-size: 13px;
+}
+
+.size40 {
+  font-size: 17px;
+}
+
+.breadcrumb {
+  padding: 10px 0 30px 0;
+  color: #cacaca;
+  font-size: 13px;
+}
